@@ -1,23 +1,16 @@
 # Sistema Mural Bíblico — Septiembre 2026
 
-Sistema web para los QR permanentes del mural bíblico.
+Versión visual adaptada a la identidad gráfica proporcionada:
+- azul grisáceo
+- amarillo
+- blanco
+- Iglesia Cristiana Visión Internacional Apaxco
+- logotipo proporcionado
 
-## Publicación en GitHub Pages
+Mantener `index.html` en la raíz del repositorio de GitHub Pages.
 
-1. Sube **todo el contenido de esta carpeta** al repositorio.
-2. Verifica que `index.html` quede en la raíz del repositorio.
-3. En GitHub: **Settings → Pages**.
-4. En **Build and deployment**, selecciona:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/ (root)**
-5. Guarda con **Save**.
-
-La página utilizará automáticamente la semana correspondiente de septiembre de 2026.
-
-## QR
-
-Cuando GitHub Pages proporcione la URL pública definitiva, se pueden generar los dos QR permanentes:
-
+Las URLs permanentes del sistema son:
 - `?tipo=alabanza`
 - `?tipo=devocional`
+
+El archivo `PLAYLISTS_SPOTIFY_PARA_CREAR.md` contiene las cuatro listas de 12 canciones.
