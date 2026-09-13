@@ -33,5 +33,13 @@ Crear las cuatro playlists como públicas y después colocar sus URL públicas e
 Las cuatro playlists públicas están integradas en la página. La página incluye un reproductor/visualizador de Spotify y un botón para abrir cada playlist. Los cambios que hagas directamente en Spotify se reflejarán en el contenido mostrado por el reproductor.
 
 
-## Playlists
-Las playlists se muestran mediante el embed público de Spotify y están vinculadas por semana. Si cambias las canciones en Spotify, la página conserva el mismo enlace y muestra la versión actualizada de esa playlist.
+## ACTUALIZACIÓN DE PLAYLISTS — SEPTIEMBRE 2026
+
+Se actualizaron las listas visibles en la página para que correspondan a las cuatro playlists públicas de Spotify proporcionadas. También se incorporaron los enlaces y reproductores públicos de Spotify por semana.
+
+- Semana 1: https://open.spotify.com/playlist/6m5XFNTjc5803pcQoAP5tx
+- Semana 2: https://open.spotify.com/playlist/5F6rQTr0tcSA5lAnBYBvKA
+- Semana 3: https://open.spotify.com/playlist/4OCFVEQuxFFFCYT6iZLjgQ
+- Semana 4: https://open.spotify.com/playlist/0sdeDFHtoRz1tfcbtnnSv5
+
+La página mantiene los QR permanentes y la lógica automática por fecha.
