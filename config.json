@@ -1,0 +1,290 @@
+{
+  "project": "Mural Bíblico Septiembre 2026",
+  "timezone": "America/Mexico_City",
+  "qr_destinations": {
+    "alabanza": "?tipo=alabanza",
+    "devocional": "?tipo=devocional"
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "start": "2026-09-06",
+      "end": "2026-09-12",
+      "theme": "Comenzar con gratitud",
+      "type": "Alabanza de gozo",
+      "verse": "Salmo 118:24",
+      "playlist": {
+        "title": "Comenzar con gratitud",
+        "spotify_url": "",
+        "youtube_url": "",
+        "songs": [
+          {
+            "title": "¡Alabo!",
+            "artist": "TAYA / ECCOS"
+          },
+          {
+            "title": "Danzando",
+            "artist": "Gateway Worship Español"
+          },
+          {
+            "title": "Nadie Como Tú",
+            "artist": "Miel San Marcos / Barak"
+          },
+          {
+            "title": "Gozo",
+            "artist": "Gateway Worship Español"
+          },
+          {
+            "title": "Glorioso Día",
+            "artist": "Miel San Marcos"
+          },
+          {
+            "title": "Fiesta",
+            "artist": "Miel San Marcos"
+          },
+          {
+            "title": "Alaba",
+            "artist": "Evan Craft / Intimidad Worship"
+          },
+          {
+            "title": "Bueno Es Dios",
+            "artist": "ALISON / Rubinsky Rbk"
+          },
+          {
+            "title": "La Gloria de Dios",
+            "artist": "Un Corazón / ECCOS"
+          },
+          {
+            "title": "Declaro El Nombre de Jesús",
+            "artist": "Rojo"
+          },
+          {
+            "title": "Quién Más",
+            "artist": "Gateway Worship Español / Miel San Marcos"
+          },
+          {
+            "title": "Tú Proveerás",
+            "artist": "Majo y Dan / Christine D’Clario"
+          }
+        ]
+      },
+      "devotional": {
+        "title": "Lo suficiente",
+        "audio_file": "audios/DEVOCIONAL Lo suficiente.m4a",
+        "reflection": "Cada semana puede comenzar de una manera distinta cuando elegimos reconocer lo bueno que Dios ya está haciendo. La gratitud cambia nuestra mirada y nos ayuda a caminar con esperanza.",
+        "application": "Hoy identifica tres motivos de gratitud y compártelos con alguien.",
+        "prayer": "Dios, gracias por este nuevo día y por tu fidelidad. Ayúdame a comenzar esta semana con un corazón agradecido y dispuesto a confiar en ti. Amén."
+      }
+    },
+    {
+      "week": 2,
+      "start": "2026-09-13",
+      "end": "2026-09-19",
+      "theme": "Dios está contigo",
+      "type": "Alabanza de confianza",
+      "verse": "Isaías 41:10",
+      "playlist": {
+        "title": "Dios está contigo",
+        "spotify_url": "",
+        "youtube_url": "",
+        "songs": [
+          {
+            "title": "Lo Harás Otra Vez",
+            "artist": "Elevation Worship Español"
+          },
+          {
+            "title": "Tumbas A Jardines",
+            "artist": "Elevation Español"
+          },
+          {
+            "title": "Mi Esperanza Está en Jesús",
+            "artist": "Bethel Music"
+          },
+          {
+            "title": "Ya No Soy Esclavo",
+            "artist": "Bethel Music"
+          },
+          {
+            "title": "Dios de Oportunidades",
+            "artist": "Evan Craft"
+          },
+          {
+            "title": "Fiel",
+            "artist": "Majo y Dan"
+          },
+          {
+            "title": "Siempre Vienes Tras de Mí",
+            "artist": "Austin Stone Worship"
+          },
+          {
+            "title": "En Tus Manos Cristo Rey",
+            "artist": "Austin Stone Worship"
+          },
+          {
+            "title": "Santo Es Mi Dios",
+            "artist": "Austin Stone Worship"
+          },
+          {
+            "title": "Fiel Hasta el Final",
+            "artist": "Vida"
+          },
+          {
+            "title": "El Dios Que Me Ve",
+            "artist": "Jessica Ordoñez"
+          },
+          {
+            "title": "Gracias",
+            "artist": "Victory House Worship"
+          }
+        ]
+      },
+      "devotional": {
+        "title": "Me siento vacío",
+        "audio_file": "audios/DEVOCIONAL Me siento vacío.m4a",
+        "reflection": "Hay momentos en los que una tarea, una decisión o una situación puede parecer difícil. La fe nos recuerda que no tenemos que enfrentar cada desafío desde la soledad: podemos buscar a Dios y confiar en su presencia.",
+        "application": "Ante una preocupación de esta semana, haz una pausa, ora y recuerda que puedes pedir ayuda.",
+        "prayer": "Señor, cuando tenga miedo o incertidumbre, ayúdame a recordar que estás conmigo. Dame fortaleza, sabiduría y paz para avanzar. Amén."
+      }
+    },
+    {
+      "week": 3,
+      "start": "2026-09-20",
+      "end": "2026-09-26",
+      "theme": "Caminar en fe",
+      "type": "Alabanza de ministración",
+      "verse": "Proverbios 3:5–6",
+      "playlist": {
+        "title": "Caminar en fe",
+        "spotify_url": "",
+        "youtube_url": "",
+        "songs": [
+          {
+            "title": "Yeshua",
+            "artist": "Maverick City Música"
+          },
+          {
+            "title": "Jesús en el Centro",
+            "artist": "Selah Worship / Factor de Cambio"
+          },
+          {
+            "title": "Santo Espíritu",
+            "artist": "Averly Morillo"
+          },
+          {
+            "title": "No Hay Lugar Más Alto",
+            "artist": "Miel San Marcos / Christine D’Clario"
+          },
+          {
+            "title": "Corro a Ti, Padre",
+            "artist": "Gateway Worship Español / Christine D’Clario"
+          },
+          {
+            "title": "Buen Padre",
+            "artist": "Gateway Worship Español / Christine D’Clario"
+          },
+          {
+            "title": "Como Me Amas",
+            "artist": "Evan Craft"
+          },
+          {
+            "title": "Desesperado",
+            "artist": "Mosaic MSC"
+          },
+          {
+            "title": "Mover Tu Corazón",
+            "artist": "ALISON"
+          },
+          {
+            "title": "Yo Soy Tu Amado",
+            "artist": "Marcos Brunet"
+          },
+          {
+            "title": "Al Estar Aquí",
+            "artist": "Marcos Witt / TAYA"
+          },
+          {
+            "title": "Santo por Siempre",
+            "artist": "ECCOS"
+          }
+        ]
+      },
+      "devotional": {
+        "title": "Aprende a identificar tus debilidades",
+        "audio_file": "audios/DEVOCIONAL Aprende a identificar tus debilidades.m4a",
+        "reflection": "No siempre podemos conocer todo lo que viene después. La fe nos invita a dar el siguiente paso con confianza, buscando dirección y poniendo nuestras decisiones delante de Dios.",
+        "application": "Elige una decisión pendiente y dedica unos minutos a orar antes de actuar.",
+        "prayer": "Dios, guía mis decisiones y enséñame a confiar en ti incluso cuando no vea todo el camino. Dame paciencia para escuchar y valentía para avanzar. Amén."
+      }
+    },
+    {
+      "week": 4,
+      "start": "2026-09-27",
+      "end": "2026-09-30",
+      "theme": "Servir con amor",
+      "type": "Alabanza de consagración",
+      "verse": "Gálatas 5:13",
+      "playlist": {
+        "title": "Servir con amor",
+        "spotify_url": "",
+        "youtube_url": "",
+        "songs": [
+          {
+            "title": "Venid Contempladle",
+            "artist": "Paul Baloche / Josh Morales / Waleska Morales"
+          },
+          {
+            "title": "Poderoso Dios (Grande y Fiel)",
+            "artist": "Gateway Worship Español / Miel San Marcos"
+          },
+          {
+            "title": "De Gloria en Gloria",
+            "artist": "Christine D’Clario / Miel San Marcos"
+          },
+          {
+            "title": "Viento y Fuego",
+            "artist": "Elevation Español"
+          },
+          {
+            "title": "Resucitó",
+            "artist": "Gateway Worship Español / Miel San Marcos"
+          },
+          {
+            "title": "Es Él",
+            "artist": "Felipe S. Santos / Marcos Brunet"
+          },
+          {
+            "title": "Yo Soy la Ofrenda",
+            "artist": "Montesanto"
+          },
+          {
+            "title": "Que Vuelva lo Santo al Altar",
+            "artist": "Grupo Grace / Montesanto"
+          },
+          {
+            "title": "Primero Nos Amó",
+            "artist": "Matthew Hotton / Marcos Witt"
+          },
+          {
+            "title": "Atributos",
+            "artist": "R3MANENT3"
+          },
+          {
+            "title": "Tu Amor no Tiene Fin",
+            "artist": "Factor de Cambio / Selah Worship"
+          },
+          {
+            "title": "Mayor es Tu Gracia",
+            "artist": "Gianmarco Aguilar"
+          }
+        ]
+      },
+      "devotional": {
+        "title": "Ser diferente",
+        "audio_file": "audios/DEVOCIONAL Ser diferente.m4a",
+        "reflection": "Servir no siempre significa hacer algo grande. Una palabra amable, escuchar a alguien, colaborar o ayudar en casa también puede convertirse en una expresión concreta de amor.",
+        "application": "Realiza esta semana una acción de servicio sin esperar reconocimiento.",
+        "prayer": "Señor, abre mis ojos para reconocer a quienes necesitan apoyo. Enséñame a servir con alegría, humildad y amor. Amén."
+      }
+    }
+  ]
+}
