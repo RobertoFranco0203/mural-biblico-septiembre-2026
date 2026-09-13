@@ -15,7 +15,7 @@
       "verse": "Salmo 118:24",
       "playlist": {
         "title": "Comenzar con gratitud",
-        "spotify_url": "",
+        "spotify_url": "https://open.spotify.com/playlist/6m5XFNTjc5803pcQoAP5tx",
         "youtube_url": "",
         "songs": [
           {
@@ -66,7 +66,8 @@
             "title": "Tú Proveerás",
             "artist": "Majo y Dan / Christine D’Clario"
           }
-        ]
+        ],
+        "spotify_embed_url": "https://open.spotify.com/embed/playlist/6m5XFNTjc5803pcQoAP5tx"
       },
       "devotional": {
         "title": "Lo suficiente",
@@ -85,7 +86,7 @@
       "verse": "Isaías 41:10",
       "playlist": {
         "title": "Dios está contigo",
-        "spotify_url": "",
+        "spotify_url": "https://open.spotify.com/playlist/5F6rQTr0tcSA5lAnBYBvKA",
         "youtube_url": "",
         "songs": [
           {
@@ -136,7 +137,8 @@
             "title": "Gracias",
             "artist": "Victory House Worship"
           }
-        ]
+        ],
+        "spotify_embed_url": "https://open.spotify.com/embed/playlist/5F6rQTr0tcSA5lAnBYBvKA"
       },
       "devotional": {
         "title": "Me siento vacío",
@@ -155,7 +157,7 @@
       "verse": "Proverbios 3:5–6",
       "playlist": {
         "title": "Caminar en fe",
-        "spotify_url": "",
+        "spotify_url": "https://open.spotify.com/playlist/4OCFVEQuxFFFCYT6iZLjgQ",
         "youtube_url": "",
         "songs": [
           {
@@ -206,7 +208,8 @@
             "title": "Santo por Siempre",
             "artist": "ECCOS"
           }
-        ]
+        ],
+        "spotify_embed_url": "https://open.spotify.com/embed/playlist/4OCFVEQuxFFFCYT6iZLjgQ"
       },
       "devotional": {
         "title": "Aprende a identificar tus debilidades",
@@ -225,7 +228,7 @@
       "verse": "Gálatas 5:13",
       "playlist": {
         "title": "Servir con amor",
-        "spotify_url": "",
+        "spotify_url": "https://open.spotify.com/playlist/0sdeDFHtoRz1tfcbtnnSv5",
         "youtube_url": "",
         "songs": [
           {
@@ -276,7 +279,8 @@
             "title": "Mayor es Tu Gracia",
             "artist": "Gianmarco Aguilar"
           }
-        ]
+        ],
+        "spotify_embed_url": "https://open.spotify.com/embed/playlist/0sdeDFHtoRz1tfcbtnnSv5"
       },
       "devotional": {
         "title": "Ser diferente",
