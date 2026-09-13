@@ -1,29 +1,26 @@
-# Mural Bíblico — Septiembre 2026
+# Sistema Mural Bíblico — Septiembre 2026
 
-Paquete final para GitHub Pages.
+Paquete final para publicar en GitHub Pages.
 
-## Publicación
-Sube/reemplaza todos los archivos y carpetas de este paquete en la raíz del repositorio `mural-biblico-septiembre-2026`, en la rama que GitHub Pages utiliza.
+## Archivos principales
+- `index.html` — sitio completo, responsive y con cambio automático por semana.
+- `logo_iglesia_transparente.png` / `.svg` — logotipo con fondo transparente.
+- `qr_alabanza.png` — QR permanente para `?tipo=alabanza`.
+- `qr_devocional.png` — QR permanente para `?tipo=devocional`.
+- `audios/` — cuatro devocionales en M4A.
+- `playlists_septiembre_2026.csv` — catálogo de las 4 playlists y 48 canciones.
+- `config.json` — configuración de contenidos.
 
-## URL permanente
-`https://robertofranco0203.github.io/mural-biblico-septiembre-2026/`
+## Calendario
+- Semana 1: 06–12 septiembre 2026
+- Semana 2: 13–19 septiembre 2026
+- Semana 3: 20–26 septiembre 2026
+- Semana 4: 27–30 septiembre 2026
 
-## Funcionamiento
-- `?tipo=alabanza` muestra la alabanza de la semana.
-- `?tipo=devocional` muestra el devocional de la semana.
-- El sistema determina automáticamente la semana usando `America/Mexico_City`.
-- Semana 1: 6–12 septiembre.
-- Semana 2: 13–19 septiembre.
-- Semana 3: 20–26 septiembre.
-- Semana 4: 27–30 septiembre.
-- Antes del 6 de septiembre muestra “Próximamente”.
+El diseño visual sigue la referencia proporcionada: azul profundo/celeste, blanco y amarillo, logotipo protagonista, panel central blanco, navegación lateral y tarjetas QR.
 
-## Archivos clave
-- `index.html` — página web final.
-- `config.json` — configuración y playlists.
-- `playlists_septiembre_2026.csv` — 48 canciones sincronizadas.
-- `audios/` — cuatro devocionales.
-- `logo_iglesia_transparente.png` — logotipo sin fondo blanco.
-- `qr_alabanza.png` — QR permanente de alabanza.
-- `qr_devocional.png` — QR permanente de devocional.
-- `VERIFICACION_FINAL.md` — destinos y comprobaciones del paquete.
+
+## Actualización de identidad visual
+- Se conserva el logotipo original proporcionado por la Iglesia.
+- Se incorpora `logo_iglesia_con_brillo.png`: mismo logotipo, sobre fondo azul institucional con halo luminoso y un acento amarillo sutil.
+- El archivo `logo_iglesia_original.svg` conserva la fuente vectorial original suministrada.
