@@ -1,104 +1,110 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0b5378">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07577c"><meta name="description" content="Mes de la Biblia · Septiembre 2026 · Iglesia Cristiana Visión Internacional Apaxco">
 <title>Mes de la Biblia · Septiembre 2026 | Iglesia Cristiana Visión Internacional Apaxco</title>
 <style>
-:root{--blue:#075b98;--navy:#063f68;--blue2:#1f729b;--yellow:#ffe600;--white:#fff;--ink:#123f62;--soft:#edf5fa;--shadow:rgba(0,34,63,.25)}
-*{box-sizing:border-box}
-body{margin:0;color:var(--ink);font-family:Arial,Helvetica,sans-serif;background:linear-gradient(145deg,#064c76 0%,#2b7898 55%,#0c5a83 100%);min-height:100vh}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background-image:radial-gradient(rgba(255,255,255,.9) .65px,transparent .65px);background-size:7px 7px}
-main{max-width:1500px;margin:auto;padding:18px 18px 28px;position:relative}
-header{display:grid;grid-template-columns:350px 1fr 250px;gap:28px;align-items:center;padding:10px 26px 22px;border-bottom:7px solid var(--yellow)}
-.logo-wrap{display:flex;align-items:center;justify-content:center;padding:8px 6px;min-height:340px;background:transparent;border-radius:0;box-shadow:none}
-.logo{width:340px;max-width:100%;height:auto;display:block;filter:drop-shadow(0 8px 10px rgba(0,0,0,.16))}
-.brand .kicker{color:#fff;font-weight:900;letter-spacing:.08em;font-size:14px;margin-bottom:9px}
-.brand h1{margin:0;color:#fff;font-size:clamp(34px,4vw,64px);line-height:.96;font-weight:900;text-shadow:3px 3px 0 rgba(0,0,0,.22)}
-.brand .vision{margin-top:10px;color:var(--yellow);font-size:clamp(28px,3.2vw,53px);font-weight:900;line-height:.95;text-shadow:3px 3px 0 rgba(0,0,0,.18)}
-.tagline{margin-top:12px;color:#fff;font-size:clamp(18px,2vw,29px);font-weight:800}.tagline em{font-family:Georgia,serif;font-weight:400}
-.quote{color:#fff;text-align:right;font-family:Georgia,serif;font-style:italic;font-size:18px;line-height:1.35}.quote b{display:block;font-family:Arial,sans-serif;font-style:normal;font-size:13px;margin-top:8px}
-.layout{display:grid;grid-template-columns:225px 1fr 270px;gap:26px;margin-top:22px}
-.nav{display:flex;flex-direction:column;gap:12px}
-.nav a{background:#f7fbfd;border-radius:15px;padding:16px 17px;text-decoration:none;font-weight:900;font-size:17px;box-shadow:0 8px 18px var(--shadow);color:var(--ink)}
-.nav a.active{background:var(--yellow)}.nav .ico{display:inline-block;width:30px;font-size:23px;vertical-align:middle}
-.side-quote{margin-top:auto;color:#fff;text-align:center;font-family:Georgia,serif;font-style:italic;font-size:21px;line-height:1.35;padding:20px 8px}
-.center{background:#fff;border-radius:26px;padding:30px;box-shadow:0 15px 35px var(--shadow);min-width:0}
-.badge{display:inline-block;background:var(--yellow);color:var(--navy);font-weight:900;padding:8px 16px;border-radius:999px;font-size:15px;letter-spacing:.03em}
-.week{color:var(--blue);font-weight:900;font-size:18px;margin-top:18px}
-h2{font-family:Georgia,serif;color:var(--blue);font-size:clamp(38px,4vw,58px);margin:8px 0}
-.verse{font-family:Georgia,serif;font-size:27px;color:#405b6c;margin-bottom:12px}
-.intro{font-size:19px;color:#42596a;line-height:1.5}
-.playhead{display:flex;justify-content:space-between;align-items:center;background:var(--soft);padding:14px 18px;border-radius:18px 18px 0 0;margin-top:18px;color:var(--blue);font-weight:900;font-size:18px;gap:12px;flex-wrap:wrap}
-.spotify{background:var(--blue);color:#fff;text-decoration:none;padding:11px 18px;border-radius:30px;font-size:15px;white-space:nowrap}.spotify-embed{margin:16px 0 12px;border-radius:18px;overflow:hidden;box-shadow:0 8px 20px rgba(0,34,63,.12)}.spotify-embed iframe{display:block;width:100%;height:352px;border:0}.live-note{font-size:13px;color:#58707d;margin:8px 2px 0}
-.songs{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;background:#f8fbfc;padding:4px 12px 12px;border-radius:0 0 18px 18px}
-.song{display:grid;grid-template-columns:40px 1fr;gap:10px;padding:12px 8px;border-bottom:1px solid #dde7eb}.song:nth-child(4n+2),.song:nth-child(4n+3){background:#f0f5f7;border-radius:10px}
-.num{font-weight:900;color:var(--blue);font-size:17px}.song b{font-size:16px}.song small{display:block;color:#657782;margin-top:3px;font-size:13px}
-.note{margin-top:15px;background:var(--soft);padding:14px;border-radius:16px;text-align:center;color:var(--blue)}
-.dev{line-height:1.7;font-size:17px}.label{color:var(--blue);font-weight:900;text-transform:uppercase;letter-spacing:.08em;font-size:12px;margin-top:20px}audio{width:100%;margin-top:8px}
-.qrs{display:flex;flex-direction:column;gap:18px}.qr-card{background:#063f68;color:#fff;border-radius:20px;padding:18px;text-align:center;box-shadow:0 10px 25px var(--shadow)}
-.qr-card h3{font-size:25px;line-height:1;margin:0 0 8px}.qr-card h3 span{color:var(--yellow)}.qr{background:#fff;border-radius:12px;padding:10px;width:190px;max-width:90%;margin:5px auto 10px;display:block}.qr-card strong{display:inline-block;background:var(--yellow);color:#111;padding:8px 13px;border-radius:20px;font-size:14px}
-footer{margin-top:18px;background:#063f68;color:#fff;border-radius:18px;padding:17px 24px;display:flex;justify-content:space-between;font-size:15px}
-.notice{padding:18px;border-radius:18px;background:#eef4f6;text-align:center;line-height:1.5}
-@media(max-width:1120px){header{grid-template-columns:300px 1fr}.quote{display:none}.layout{grid-template-columns:190px 1fr}.qrs{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}}
-@media(max-width:720px){main{padding:10px}header{display:flex;flex-direction:column;text-align:center}.logo-wrap{width:min(330px,90vw);min-height:auto}.logo{width:320px}.layout{display:block}.nav{display:grid;grid-template-columns:1fr 1fr;margin-bottom:15px}.side-quote{display:none}.center{padding:18px}.songs{grid-template-columns:1fr}.qrs{display:block;margin-top:16px}.qr-card{margin-bottom:15px}footer{flex-direction:column;gap:8px;text-align:center}}
+:root{--blue:#07577c;--navy:#063b61;--deep:#032e50;--cyan:#1686ad;--yellow:#ffe100;--white:#fff;--ink:#0b3d63;--soft:#eef6fa;--line:#dce9ef;--shadow:rgba(0,35,65,.26)}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#053f65}
+body{background:radial-gradient(circle at 18% 12%,rgba(85,211,255,.22),transparent 24%),radial-gradient(circle at 85% 8%,rgba(255,255,255,.12),transparent 20%),linear-gradient(145deg,#06496f 0%,#075b82 48%,#033455 100%);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background-image:radial-gradient(rgba(255,255,255,.9) .6px,transparent .6px);background-size:8px 8px}
+main{max-width:1536px;margin:auto;padding:0 22px 18px;position:relative}
+header{position:relative;display:grid;grid-template-columns:340px 1fr 245px;gap:22px;align-items:center;padding:18px 24px 26px;min-height:315px;border-bottom:7px solid var(--yellow);background:linear-gradient(135deg,rgba(4,55,86,.32),rgba(5,106,145,.08))}
+header:after{content:"";position:absolute;left:0;right:0;bottom:-7px;height:20px;background:linear-gradient(170deg,transparent 46%,var(--yellow) 48%,var(--yellow) 58%,transparent 60%);pointer-events:none}
+.logo-zone{height:290px;display:flex;align-items:center;justify-content:center;position:relative}
+.logo-zone:before{content:"";position:absolute;width:290px;height:290px;border-radius:50%;background:radial-gradient(circle,rgba(104,224,255,.34),rgba(255,229,0,.10) 45%,transparent 70%);filter:blur(9px)}
+.logo{width:300px;max-width:100%;height:auto;position:relative;filter:drop-shadow(0 0 18px rgba(123,227,255,.45)) drop-shadow(0 10px 18px rgba(0,0,0,.24))}
+.brand{text-align:center;position:relative;z-index:1}
+.brand h1{margin:0;color:#fff;font-size:clamp(34px,4vw,62px);line-height:.94;font-weight:900;text-shadow:3px 3px 0 rgba(0,0,0,.22);letter-spacing:-.02em}
+.brand .vision{margin-top:10px;color:var(--yellow);font-size:clamp(29px,3.3vw,54px);font-weight:900;line-height:.96;text-shadow:3px 3px 0 rgba(0,0,0,.18)}
+.tagline{margin-top:12px;color:#fff;font-size:clamp(18px,2vw,29px);font-weight:900}.tagline em{font-family:Georgia,serif;font-weight:400}
+.motto{margin-top:10px;color:#fff;font-size:15px}.motto b{display:block;font-weight:400;margin-top:5px}
+.header-side{color:#fff;text-align:right;font-family:"Brush Script MT",cursive;font-size:25px;line-height:1.28;text-shadow:0 2px 7px rgba(0,0,0,.25)}
+.header-side .dash{height:3px;background:var(--yellow);width:80px;margin:12px 0 0 auto;border-radius:4px}
+.glow-star{position:absolute;left:22px;top:20px;width:110px;height:110px;border-radius:50%;background:radial-gradient(circle,#fff 0 2%,rgba(255,255,255,.75) 4%,rgba(126,226,255,.25) 16%,transparent 58%);filter:blur(.3px);opacity:.9}
+.layout{display:grid;grid-template-columns:245px 1fr 250px;gap:24px;margin-top:22px}
+.nav{display:flex;flex-direction:column;gap:11px}
+.nav a{display:flex;align-items:center;gap:12px;background:#f5fafc;border-radius:15px;padding:15px 17px;text-decoration:none;font-weight:900;font-size:17px;color:#101b24;box-shadow:0 8px 18px var(--shadow);min-height:62px}
+.nav a.active{background:var(--yellow)}.nav a .ico{width:30px;font-size:26px;text-align:center}.nav a .arrow{margin-left:auto;font-size:27px;color:var(--ink)}
+.side-quote{margin-top:5px;color:#fff;text-align:center;font-family:Georgia,serif;font-style:italic;font-size:21px;line-height:1.35;padding:18px 10px;min-height:230px;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(180deg,transparent,rgba(0,35,60,.13))}
+.side-quote small{font-family:Arial,sans-serif;font-style:normal;font-size:14px;margin-top:10px}
+.bible-decor{margin-top:auto;height:145px;overflow:hidden;border-radius:18px 18px 0 0;opacity:.82;mask-image:linear-gradient(to bottom,transparent 0,#000 25%)}
+.bible-decor img{width:100%;display:block;transform:translateY(-20px)}
+.center{background:#fff;border-radius:22px;padding:26px 28px 22px;box-shadow:0 16px 38px var(--shadow);min-width:0}
+.badge{display:inline-block;background:var(--yellow);color:#073b5f;font-weight:900;padding:8px 15px;border-radius:16px;font-size:15px;letter-spacing:.02em}
+.week{color:#153f62;font-weight:900;font-size:18px;margin-top:14px}
+.title-row{display:grid;grid-template-columns:1fr 250px;gap:20px;align-items:center}
+h2{font-family:Georgia,serif;color:#0c4169;font-size:clamp(39px,4vw,57px);line-height:1;margin:7px 0 2px;letter-spacing:-.02em}
+.verse{font-family:Georgia,serif;font-size:27px;color:#5b6873;margin-bottom:7px}
+.intro{font-size:18px;color:#526575;line-height:1.45;margin:8px 0 14px}
+.quote-card{background:#eef6fb;border-radius:18px;padding:14px 18px;text-align:center;color:#0d4670;font-family:Georgia,serif;font-style:italic;line-height:1.35;min-height:132px;display:flex;flex-direction:column;justify-content:center;position:relative}
+.quote-card:before{content:'“';font-size:56px;font-style:normal;line-height:.6;font-weight:900;display:block;margin-bottom:8px}
+.quote-card b{font-family:Arial,sans-serif;font-size:13px;font-style:normal;margin-top:8px}
+.playhead{display:flex;justify-content:space-between;align-items:center;background:#edf6fa;padding:12px 16px;border-radius:14px 14px 0 0;color:#0c4169;font-weight:900;font-size:18px;gap:12px;flex-wrap:wrap}
+.spotify{background:#0a4168;color:#fff;text-decoration:none;padding:10px 17px;border-radius:30px;font-size:15px;white-space:nowrap}
+.spotify-embed{margin:12px 0;border-radius:15px;overflow:hidden;box-shadow:0 8px 20px rgba(0,34,63,.12)}.spotify-embed iframe{display:block;width:100%;height:300px;border:0}
+.songs{display:grid;grid-template-columns:1fr 1fr;gap:0 22px;background:#f8fbfc;padding:3px 8px 10px;border-radius:0 0 14px 14px}
+.song{display:grid;grid-template-columns:40px 1fr;gap:9px;padding:10px 7px;border-bottom:1px solid #dce7ec;min-width:0}.song:nth-child(4n+2),.song:nth-child(4n+3){background:#eef4f7;border-radius:9px}
+.num{font-weight:900;color:#0c4169;font-size:17px;text-align:center;padding-top:2px}.song b{font-size:15px;line-height:1.15}.song small{display:block;color:#697b87;margin-top:3px;font-size:12px;line-height:1.15}
+.note{margin-top:12px;background:#eef6fa;padding:11px;border-radius:13px;text-align:center;color:#0c4169;font-size:14px}
+.dev{line-height:1.65;font-size:17px}.label{color:#0c4169;font-weight:900;text-transform:uppercase;letter-spacing:.08em;font-size:12px;margin-top:17px}audio{width:100%;margin-top:7px}
+.qrs{display:flex;flex-direction:column;gap:10px}
+.qr-card{background:#053d64;color:#fff;border-radius:17px;padding:15px 14px;text-align:center;box-shadow:0 10px 25px var(--shadow);position:relative;overflow:hidden}
+.qr-card:before{content:"";position:absolute;inset:-50px auto auto -30px;width:110px;height:110px;background:radial-gradient(circle,rgba(85,210,255,.35),transparent 65%)}
+.qr-card h3{font-size:24px;line-height:.98;margin:0 0 7px;position:relative}.qr-card h3 span{color:var(--yellow)}
+.qr{background:#fff;border-radius:10px;padding:8px;width:185px;max-width:92%;margin:4px auto 8px;display:block;position:relative}
+.qr-card strong{display:inline-block;background:var(--yellow);color:#111;padding:7px 12px;border-radius:20px;font-size:14px;position:relative}.qr-card p{margin:7px 0 1px;font-size:14px;line-height:1.2}
+footer{margin-top:16px;background:#053d64;color:#fff;border-radius:14px;padding:15px 22px;display:flex;justify-content:space-between;align-items:center;font-size:14px;gap:15px}footer .cats{display:flex;gap:22px;align-items:center;flex-wrap:wrap}footer .cats span{white-space:nowrap}footer .right{font-family:Georgia,serif;font-style:italic;font-size:18px}
+@media(max-width:1180px){header{grid-template-columns:280px 1fr}.header-side{display:none}.layout{grid-template-columns:190px 1fr}.qrs{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}}
+@media(max-width:760px){main{padding:0 10px 12px}header{display:flex;flex-direction:column;text-align:center;padding:15px 10px 22px;min-height:auto}.logo-zone{height:250px}.logo{width:260px}.glow-star{left:20px}.brand h1{font-size:38px}.brand .vision{font-size:31px}.tagline{font-size:20px}.layout{display:block;margin-top:14px}.nav{display:grid;grid-template-columns:1fr 1fr;margin-bottom:12px}.nav a{font-size:14px;min-height:55px;padding:11px}.side-quote,.bible-decor{display:none}.center{padding:17px 14px;border-radius:17px}.title-row{display:block}.quote-card{margin-top:12px}.songs{grid-template-columns:1fr}.spotify-embed iframe{height:280px}.qrs{display:block;margin-top:13px}.qr-card{margin-bottom:10px}footer{flex-direction:column;text-align:center}.right{margin-top:2px}}
 </style>
 </head>
 <body>
 <main>
 <header>
-  <div class="logo-wrap"><img class="logo" src="logo_iglesia_transparente.png" alt="Logotipo Visión Internacional Apaxco"></div>
-  <div class="brand">
-    <div class="kicker">MES DE LA BIBLIA · SEPTIEMBRE 2026</div>
-    <h1 id="title">Alabanza de la semana</h1>
-    <div class="vision">VISIÓN INTERNACIONAL APAXCO</div>
-    <div class="tagline">UN LUGAR PARA <em>encontrarse</em> CON DIOS</div>
-  </div>
-  <div class="quote">“Me buscarán y me encontrarán cuando me busquen de todo corazón.”<b>Jeremías 29:13</b></div>
+<div class="glow-star"></div>
+<div class="logo-zone"><img class="logo" src="logo_iglesia_blanco_brillo.png" alt="Logotipo oficial Iglesia Cristiana Visión Internacional Apaxco con halo de luz"></div>
+<div class="brand">
+<h1>IGLESIA CRISTIANA</h1><div class="vision">VISIÓN INTERNACIONAL APAXCO</div>
+<div class="tagline">UN LUGAR PARA <em>encontrarse</em> CON DIOS</div>
+<div class="motto">“Me buscarán y me encontrarán cuando me busquen de todo corazón.”<b>Jeremías 29:13</b></div>
+</div>
+<div class="header-side">Adoración<br>Comunidad<br>Formación<br>Servicio<div class="dash"></div></div>
 </header>
 <div class="layout">
-  <aside class="nav">
-    <a id="navAlb" class="active" href="?tipo=alabanza"><span class="ico">🎵</span> Alabanza de la semana</a>
-    <a id="navDev" href="?tipo=devocional"><span class="ico">📖</span> Devocional de la semana</a>
-    <a href="./"><span class="ico">📅</span> Todas las semanas</a>
-    <div class="side-quote">“Todo lo puedo en Cristo que me fortalece.”<br><small>Filipenses 4:13</small></div>
-  </aside>
-  <section class="center">
-    <span class="badge">MES DE LA BIBLIA · SEPTIEMBRE 2026</span>
-    <div class="week" id="weekLabel"></div>
-    <h2 id="theme"></h2>
-    <div class="verse" id="verse"></div>
-    <div id="content"></div>
-  </section>
-  <aside class="qrs">
-    <div class="qr-card"><h3>ALABANZA<br><span>DE LA SEMANA</span></h3><img class="qr" src="qr_alabanza.png" alt="Código QR para la alabanza de la semana"><strong>📱 Escanea el QR</strong><p>y escucha la playlist de esta semana</p></div>
-    <div class="qr-card"><h3>DEVOCIONAL<br><span>DE LA SEMANA</span></h3><img class="qr" src="qr_devocional.png" alt="Código QR para el devocional de la semana"><strong>📱 Escanea el QR</strong><p>y lee o escucha el devocional de esta semana</p></div>
-  </aside>
+<aside class="nav">
+<a id="navAlb" class="active" href="?tipo=alabanza"><span class="ico">🎵</span><span>Alabanza<br>de la semana</span><span class="arrow">›</span></a>
+<a id="navDev" href="?tipo=devocional"><span class="ico">📖</span><span>Devocional<br>de la semana</span><span class="arrow">›</span></a>
+<a href="./"><span class="ico">📅</span><span>Todas las semanas</span><span class="arrow">›</span></a>
+<a href="#acerca"><span class="ico">ℹ️</span><span>Acerca de</span><span class="arrow">›</span></a>
+<div class="side-quote">“Todo lo puedo en Cristo que me fortalece.”<small>Filipenses 4:13</small></div>
+<div class="bible-decor"><img src="biblia_decorativa.png" alt="Biblia abierta decorativa"></div>
+</aside>
+<section class="center">
+<span class="badge">MES DE LA BIBLIA · SEPTIEMBRE 2026</span>
+<div class="week" id="weekLabel"></div>
+<div class="title-row"><div><h2 id="theme"></h2><div class="verse" id="verse"></div></div><div class="quote-card" id="quoteCard"></div></div>
+<div id="content"></div>
+</section>
+<aside class="qrs">
+<div class="qr-card"><h3>ALABANZA<br><span>DE LA SEMANA</span></h3><img class="qr" src="qr_alabanza.png" alt="Código QR real para la alabanza de la semana"><strong>📱 Escanea el QR</strong><p>y escucha la playlist<br>de esta semana</p></div>
+<div class="qr-card"><h3>DEVOCIONAL<br><span>DE LA SEMANA</span></h3><img class="qr" src="qr_devocional.png" alt="Código QR real para el devocional de la semana"><strong>📱 Escanea el QR</strong><p>y lee o escucha el devocional<br>de esta semana</p></div>
+</aside>
 </div>
-<footer><span>👥 ADORACIÓN &nbsp; | &nbsp; 🌱 COMUNIDAD &nbsp; | &nbsp; ✝ FORMACIÓN &nbsp; | &nbsp; ♥ SERVICIO</span><span>“Un lugar para encontrarse con Dios”</span></footer>
+<footer id="acerca"><div class="cats"><span>👥 &nbsp;ADORACIÓN</span><span>│</span><span>🌱 &nbsp;COMUNIDAD</span><span>│</span><span>✝ &nbsp;FORMACIÓN</span><span>│</span><span>♥ &nbsp;SERVICIO</span></div><div class="right">“Un lugar para encontrarse con Dios”</div></footer>
 </main>
 <script>
-const weeks=[{"week":1,"start":"2026-09-06","end":"2026-09-12","theme":"Comenzar con gratitud","type":"Alabanza de gozo","verse":"Salmo 118:24","playlist":{"title":"Comenzar con gratitud","spotify_url":"https://open.spotify.com/playlist/6m5XFNTjc5803pcQoAP5tx","youtube_url":"","songs":[{"title":"¡Alabo!","artist":"TAYA / ECCOS"},{"title":"Danzando - Live","artist":"Gateway Worship Español"},{"title":"Nadie Como Tú (En Vivo)","artist":"Miel San Marcos / Barak"},{"title":"Gozo (Aunque Lo Llamen Locura)","artist":"Gateway Worship Español"},{"title":"Glorioso Día","artist":"Essential Worship"},{"title":"Fiesta (En Vivo)","artist":"Miel San Marcos"},{"title":"Alaba","artist":"Evan Craft / Intimidad Worship"},{"title":"Bueno Es Dios","artist":"ALISON / Rubinsky Rbk"},{"title":"La Gloria de Dios","artist":"Un Corazón / ECCOS"},{"title":"Declaro El Nombre De Jesús","artist":"Rojo"},{"title":"Quién Más - Live","artist":"Gateway Worship Español / Miel San Marcos"},{"title":"Tú proveerás","artist":"Majo y Dan / Christine D’Clario"}],"spotify_embed_url":"https://open.spotify.com/embed/playlist/6m5XFNTjc5803pcQoAP5tx"},"devotional":{"title":"Lo suficiente","audio_file":"audios/DEVOCIONAL Lo suficiente.m4a","reflection":"Cada semana puede comenzar de una manera distinta cuando elegimos reconocer lo bueno que Dios ya está haciendo. La gratitud cambia nuestra mirada y nos ayuda a caminar con esperanza.","application":"Hoy identifica tres motivos de gratitud y compártelos con alguien.","prayer":"Dios, gracias por este nuevo día y por tu fidelidad. Ayúdame a comenzar esta semana con un corazón agradecido y dispuesto a confiar en ti. Amén."}},{"week":2,"start":"2026-09-13","end":"2026-09-19","theme":"Dios está contigo","type":"Alabanza de confianza","verse":"Isaías 41:10","playlist":{"title":"Dios está contigo","spotify_url":"https://open.spotify.com/playlist/5F6rQTr0tcSA5lAnBYBvKA","youtube_url":"","songs":[{"title":"Lo Harás Otra Vez (Do It Again)","artist":"Elevation Worship"},{"title":"Tumbas A Jardines (Graves Into Gardens)","artist":"Elevation Worship"},{"title":"Mi Esperanza Está en Jesús (En Vivo)","artist":"Bethel Music"},{"title":"Ya No Soy Esclavo (En Vivo)","artist":"Bethel Music"},{"title":"Dios De Oportunidades","artist":"Evan Craft"},{"title":"Fiel","artist":"Majo y Dan"},{"title":"En tus manos","artist":"Música Más Vida"},{"title":"De Gloria en Gloria","artist":"Marco Barrientos"},{"title":"Mover Tu Corazón","artist":"Miel San Marcos / Un Corazón"},{"title":"Fiel Hasta El Final","artist":"Vida"},{"title":"El Dios Que Me Ve","artist":"Jessica Ordoñez"},{"title":"Gracias","artist":"Elevation Español"}],"spotify_embed_url":"https://open.spotify.com/embed/playlist/5F6rQTr0tcSA5lAnBYBvKA"},"devotional":{"title":"Me siento vacío","audio_file":"audios/DEVOCIONAL Me siento vacío.m4a","reflection":"Hay momentos en los que una tarea, una decisión o una situación puede parecer difícil. La fe nos recuerda que no tenemos que enfrentar cada desafío desde la soledad: podemos buscar a Dios y confiar en su presencia.","application":"Ante una preocupación de esta semana, haz una pausa, ora y recuerda que puedes pedir ayuda.","prayer":"Señor, cuando tenga miedo o incertidumbre, ayúdame a recordar que estás conmigo. Dame fortaleza, sabiduría y paz para avanzar. Amén."}},{"week":3,"start":"2026-09-20","end":"2026-09-26","theme":"Caminar en fe","type":"Alabanza de ministración","verse":"Proverbios 3:5–6","playlist":{"title":"Caminar en fe","spotify_url":"https://open.spotify.com/playlist/4OCFVEQuxFFFCYT6iZLjgQ","youtube_url":"","songs":[{"title":"Quiero Conocer a Jesús (Yeshua) / Quiero Conocer a Jesús (Yeshua)","artist":"Generación 12"},{"title":"Jesús en el Centro (En Vivo)","artist":"Selah Worship / Factor de Cambio"},{"title":"Santo Espíritu - Live","artist":"Averly Morillo"},{"title":"No Hay Lugar Más Alto (En Vivo)","artist":"Miel San Marcos / Christine D’Clario"},{"title":"Corro a Ti, Padre","artist":"Essential Worship / La Bondad de Dios"},{"title":"Como Me Amas","artist":"Evan Craft"},{"title":"Desesperado","artist":"Mosaic MSC"},{"title":"Mover Tu Corazón","artist":"Miel San Marcos / Un Corazón"},{"title":"Yo Soy Tu Amado","artist":"Marcos Brunet"},{"title":"Al Estar Aquí","artist":"Marcos Witt / TAYA"},{"title":"Santo Por Siempre","artist":"ECCOS"},{"title":"La Bendición (The Blessing)","artist":"Elevation Worship"}],"spotify_embed_url":"https://open.spotify.com/embed/playlist/4OCFVEQuxFFFCYT6iZLjgQ"},"devotional":{"title":"Aprende a identificar tus debilidades","audio_file":"audios/DEVOCIONAL Aprende a identificar tus debilidades.m4a","reflection":"No siempre podemos conocer todo lo que viene después. La fe nos invita a dar el siguiente paso con confianza, buscando dirección y poniendo nuestras decisiones delante de Dios.","application":"Elige una decisión pendiente y dedica unos minutos a orar antes de actuar.","prayer":"Dios, guía mis decisiones y enséñame a confiar en ti incluso cuando no vea todo el camino. Dame paciencia para escuchar y valentía para avanzar. Amén."}},{"week":4,"start":"2026-09-27","end":"2026-09-30","theme":"Servir con amor","type":"Alabanza de consagración","verse":"Gálatas 5:13","playlist":{"title":"Servir con amor","spotify_url":"https://open.spotify.com/playlist/0sdeDFHtoRz1tfcbtnnSv5","youtube_url":"","songs":[{"title":"Contempladle","artist":"Paul Baloche / Josh Morales / Waleska Morales"},{"title":"Poderoso Dios (Grande y Fiel) - Live","artist":"Gateway Worship Español / Miel San Marcos"},{"title":"Júbilo","artist":"Miel San Marcos"},{"title":"Viento Y Fuego","artist":"Elevation Español"},{"title":"Resucitó","artist":"Gateway Worship Español / Miel San Marcos"},{"title":"Es Él - En Vivo","artist":"Felipe S. Santos / Marcos Brunet"},{"title":"Yo soy la ofrenda - Live","artist":"Montesanto"},{"title":"Que Vuelva Lo Santo Al Altar","artist":"Grupo Grace / Montesanto"},{"title":"Primero Nos Amó","artist":"Matthew Hotton / Marcos Witt"},{"title":"Atributos","artist":"R3MANENT3"},{"title":"Tu amor no tiene fin","artist":"Factor de Cambio / Selah Worship"},{"title":"Rey de Justicia / Perfume a tus Pies","artist":"En Espíritu Y En Verdad"}],"spotify_embed_url":"https://open.spotify.com/embed/playlist/0sdeDFHtoRz1tfcbtnnSv5"},"devotional":{"title":"Ser diferente","audio_file":"audios/DEVOCIONAL Ser diferente.m4a","reflection":"Servir no siempre significa hacer algo grande. Una palabra amable, escuchar a alguien, colaborar o ayudar en casa también puede convertirse en una expresión concreta de amor.","application":"Realiza esta semana una acción de servicio sin esperar reconocimiento.","prayer":"Señor, abre mis ojos para reconocer a quienes necesitan apoyo. Enséñame a servir con alegría, humildad y amor. Amén."}}];
+const weeks=[{"week":1,"start":"2026-09-06","end":"2026-09-12","theme":"Comenzar con gratitud","type":"Alabanza de gozo","verse":"Salmo 118:24","playlist":{"title":"Comenzar con gratitud","spotify_url":"https://open.spotify.com/playlist/6m5XFNTjc5803pcQoAP5tx","youtube_url":"","songs":[{"title":"¡Alabo!","artist":"TAYA / ECCOS"},{"title":"Danzando - Live","artist":"Gateway Worship Español"},{"title":"Nadie Como Tú (En Vivo)","artist":"Miel San Marcos / Barak"},{"title":"Gozo (Aunque Lo Llamen Locura)","artist":"Gateway Worship Español"},{"title":"Glorioso Día","artist":"Essential Worship"},{"title":"Fiesta (En Vivo)","artist":"Miel San Marcos"},{"title":"Alaba","artist":"Evan Craft / Intimidad Worship"},{"title":"Bueno Es Dios","artist":"ALISON / Rubinsky Rbk"},{"title":"La Gloria de Dios","artist":"Un Corazón / ECCOS"},{"title":"Declaro El Nombre De Jesús","artist":"Rojo"},{"title":"Quién Más - Live","artist":"Gateway Worship Español / Miel San Marcos"},{"title":"Tú proveerás","artist":"Majo y Dan / Christine D’Clario"}],"spotify_embed_url":"https://open.spotify.com/embed/playlist/6m5XFNTjc5803pcQoAP5tx"},"devotional":{"title":"Lo suficiente","audio_file":"audios/DEVOCIONAL Lo suficiente.m4a","reflection":"Cada semana puede comenzar de una manera distinta cuando elegimos reconocer lo bueno que Dios ya está haciendo. La gratitud cambia nuestra mirada y nos ayuda a caminar con esperanza.","application":"Hoy identifica tres motivos de gratitud y compártelos con alguien.","prayer":"Dios, gracias por este nuevo día y por tu fidelidad. Ayúdame a comenzar esta semana con un corazón agradecido y dispuesto a confiar en ti. Amén."}},{"week":2,"start":"2026-09-13","end":"2026-09-19","theme":"Dios está contigo","type":"Alabanza de confianza","verse":"Isaías 41:10","playlist":{"title":"Dios está contigo","spotify_url":"https://open.spotify.com/playlist/5F6rQTr0tcSA5lAnBYBvKA","youtube_url":"","songs":[{"title":"Lo Harás Otra Vez (Do It Again)","artist":"Elevation Worship"},{"title":"Tumbas A Jardines (Graves Into Gardens)","artist":"Elevation Worship"},{"title":"Mi Esperanza Está en Jesús (En Vivo)","artist":"Bethel Music"},{"title":"Ya No Soy Esclavo (En Vivo)","artist":"Bethel Music"},{"title":"Dios De Oportunidades","artist":"Evan Craft"},{"title":"Fiel","artist":"Majo y Dan"},{"title":"En tus manos","artist":"Música Más Vida"},{"title":"De Gloria en Gloria","artist":"Marco Barrientos"},{"title":"Mover Tu Corazón","artist":"Miel San Marcos / Un Corazón"},{"title":"Fiel Hasta El Final","artist":"Vida"},{"title":"El Dios Que Me Ve","artist":"Jessica Ordoñez"},{"title":"Gracias","artist":"Elevation Español"}],"spotify_embed_url":"https://open.spotify.com/embed/playlist/5F6rQTr0tcSA5lAnBYBvKA"},"devotional":{"title":"Me siento vacío","audio_file":"audios/DEVOCIONAL Me siento vacío.m4a","reflection":"Hay momentos en los que una tarea, una decisión o una situación puede parecer difícil. La fe nos recuerda que no tenemos que enfrentar cada desafío desde la soledad: podemos buscar a Dios y confiar en su presencia.","application":"Ante una preocupación de esta semana, haz una pausa, ora y recuerda que puedes pedir ayuda.","prayer":"Señor, cuando tenga miedo o incertidumbre, ayúdame a recordar que estás conmigo. Dame fortaleza, sabiduría y paz para avanzar. Amén."}},{"week":3,"start":"2026-09-20","end":"2026-09-26","theme":"Caminar en fe","type":"Alabanza de ministración","verse":"Hebreos 11:1","playlist":{"title":"Caminar en fe","spotify_url":"https://open.spotify.com/playlist/4OCFVEQuxFFFCYT6iZLjgQ","youtube_url":"","songs":[{"title":"Quiero Conocer a Jesús (Yeshua) / Quiero Conocer a Jesús (Yeshua)","artist":"Generación 12"},{"title":"Jesús en el Centro (En Vivo)","artist":"Selah Worship / Factor de Cambio"},{"title":"Santo Espíritu - Live","artist":"Averly Morillo"},{"title":"No Hay Lugar Más Alto (En Vivo)","artist":"Miel San Marcos / Christine D’Clario"},{"title":"Corro a Ti, Padre","artist":"Essential Worship / La Bondad de Dios"},{"title":"Como Me Amas","artist":"Evan Craft"},{"title":"Desesperado","artist":"Mosaic MSC"},{"title":"Mover Tu Corazón","artist":"Miel San Marcos / Un Corazón"},{"title":"Yo Soy Tu Amado","artist":"Marcos Brunet"},{"title":"Al Estar Aquí","artist":"Marcos Witt / TAYA"},{"title":"Santo Por Siempre","artist":"ECCOS"},{"title":"La Bendición (The Blessing)","artist":"Elevation Worship"}],"spotify_embed_url":"https://open.spotify.com/embed/playlist/4OCFVEQuxFFFCYT6iZLjgQ"},"devotional":{"title":"Aprende a identificar tus debilidades","audio_file":"audios/DEVOCIONAL Aprende a identificar tus debilidades.m4a","reflection":"No siempre podemos conocer todo lo que viene después. La fe nos invita a dar el siguiente paso con confianza, buscando dirección y poniendo nuestras decisiones delante de Dios.","application":"Elige una decisión pendiente y dedica unos minutos a orar antes de actuar.","prayer":"Dios, guía mis decisiones y enséñame a confiar en ti incluso cuando no vea todo el camino. Dame paciencia para escuchar y valentía para avanzar. Amén."}},{"week":4,"start":"2026-09-27","end":"2026-09-30","theme":"Servir con amor","type":"Alabanza de consagración","verse":"Gálatas 5:13","playlist":{"title":"Servir con amor","spotify_url":"https://open.spotify.com/playlist/0sdeDFHtoRz1tfcbtnnSv5","youtube_url":"","songs":[{"title":"Contempladle","artist":"Paul Baloche / Josh Morales / Waleska Morales"},{"title":"Poderoso Dios (Grande y Fiel) - Live","artist":"Gateway Worship Español / Miel San Marcos"},{"title":"Júbilo","artist":"Miel San Marcos"},{"title":"Viento Y Fuego","artist":"Elevation Español"},{"title":"Resucitó","artist":"Gateway Worship Español / Miel San Marcos"},{"title":"Es Él - En Vivo","artist":"Felipe S. Santos / Marcos Brunet"},{"title":"Yo soy la ofrenda - Live","artist":"Montesanto"},{"title":"Que Vuelva Lo Santo Al Altar","artist":"Grupo Grace / Montesanto"},{"title":"Primero Nos Amó","artist":"Matthew Hotton / Marcos Witt"},{"title":"Atributos","artist":"R3MANENT3"},{"title":"Tu amor no tiene fin","artist":"Factor de Cambio / Selah Worship"},{"title":"Rey de Justicia / Perfume a tus Pies","artist":"En Espíritu Y En Verdad"}],"spotify_embed_url":"https://open.spotify.com/embed/playlist/0sdeDFHtoRz1tfcbtnnSv5"},"devotional":{"title":"Ser diferente","audio_file":"audios/DEVOCIONAL Ser diferente.m4a","reflection":"Servir no siempre significa hacer algo grande. Una palabra amable, escuchar a alguien, colaborar o ayudar en casa también puede convertirse en una expresión concreta de amor.","application":"Realiza esta semana una acción de servicio sin esperar reconocimiento.","prayer":"Señor, abre mis ojos para reconocer a quienes necesitan apoyo. Enséñame a servir con alegría, humildad y amor. Amén."}}];
 function getWeek(){const d=new Date().toLocaleDateString('en-CA',{timeZone:'America/Mexico_City'});return weeks.find(w=>d>=w.start&&d<=w.end)}
 function render(){
- const type=new URLSearchParams(location.search).get('tipo')||'alabanza';
- const w=getWeek(); const c=document.getElementById('content');
- document.getElementById('navAlb').classList.toggle('active',type!=='devocional');
- document.getElementById('navDev').classList.toggle('active',type==='devocional');
- if(!w){document.getElementById('title').textContent='Septiembre, Mes de la Biblia';document.getElementById('weekLabel').textContent='PRÓXIMAMENTE';document.getElementById('theme').textContent='El contenido semanal comenzará el domingo 6 de septiembre de 2026';document.getElementById('verse').textContent='';c.innerHTML='<div class="notice"><b>El sistema está listo.</b><br>Los contenidos cambiarán automáticamente cada domingo según la fecha.</div>';return}
- document.getElementById('weekLabel').textContent=`SEMANA ${w.week} · ${w.start.slice(8)}–${w.end.slice(8)} DE SEPTIEMBRE`;
- document.getElementById('title').textContent=type==='devocional'?'Devocional de la semana':'Alabanza de la semana';
- document.getElementById('theme').textContent=type==='devocional'?w.devotional.title:w.playlist.title;
- document.getElementById('verse').textContent=w.verse;
- if(type==='devocional'){
-   c.innerHTML=`<p class="intro">Una pausa para escuchar, reflexionar y acercarnos a Dios durante esta semana.</p><div class="label">Escuchar devocional</div><audio controls preload="metadata" src="${w.devotional.audio_file}"></audio><div class="label">Reflexión</div><p class="dev">${w.devotional.reflection}</p><div class="label">Para esta semana</div><p class="dev">${w.devotional.application}</p><div class="label">Oración</div><p class="dev">${w.devotional.prayer}</p>`;
- } else {
-   const list=w.playlist.songs.map((s,i)=>`<div class="song"><span class="num">${i+1}</span><div><b>${s.title}</b><small>${s.artist}</small></div></div>`).join('');
-   const btn=w.playlist.spotify_url?`<a class="spotify" href="${w.playlist.spotify_url}" target="_blank" rel="noopener noreferrer">● Abrir playlist en Spotify ↗</a>`:'';
-   const embed=w.playlist.spotify_embed_url?`<div class="spotify-embed"><iframe src="${w.playlist.spotify_embed_url}?utm_source=generator" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen title="Playlist ${w.playlist.title}"></iframe></div><div class="live-note">♫ Vista pública de Spotify. La lista mostrada corresponde a la playlist enlazada.</div>`:'';
-   c.innerHTML=`<p class="intro">Una selección para adorar, agradecer y comenzar la semana con Dios.</p><div class="playhead"><span>🎵 PLAYLIST · ${w.playlist.songs.length} CANCIONES</span>${btn}</div>${embed}<div class="songs">${list}</div><div class="note">♥ Que esta música sea una herramienta para acercarte más a Dios.</div>`;
- }
+const type=new URLSearchParams(location.search).get('tipo')||'alabanza';const w=getWeek();const c=document.getElementById('content');
+document.getElementById('navAlb').classList.toggle('active',type!=='devocional');document.getElementById('navDev').classList.toggle('active',type==='devocional');
+if(!w){document.getElementById('weekLabel').textContent='PRÓXIMAMENTE';document.getElementById('theme').textContent='Septiembre, Mes de la Biblia';document.getElementById('verse').textContent='';document.getElementById('quoteCard').innerHTML='Preparémonos para vivir un mes de Biblia, adoración y crecimiento.<b>6 de septiembre de 2026</b>';c.innerHTML='<div class="notice"><b>El sistema está listo.</b><br>Los contenidos cambiarán automáticamente cada domingo según la fecha.</div>';return}
+document.getElementById('weekLabel').textContent=`SEMANA ${w.week} · ${w.start.slice(8)}–${w.end.slice(8)} DE SEPTIEMBRE`;document.getElementById('theme').textContent=type==='devocional'?w.devotional.title:w.playlist.title;document.getElementById('verse').textContent=w.verse;
+const quotes={1:['Este es el día que hizo el Señor; nos gozaremos y alegraremos en él.','Salmo 118:24'],2:['No temas, porque yo estoy contigo; no desmayes, porque yo soy tu Dios.','Isaías 41:10'],3:['Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve.','Hebreos 11:1'],4:['Servíos por amor los unos a los otros.','Gálatas 5:13']};const q=quotes[w.week];document.getElementById('quoteCard').innerHTML=`${q[0]}<b>${q[1]}</b>`;
+if(type==='devocional'){c.innerHTML=`<p class="intro">Una pausa para escuchar, reflexionar y acercarnos a Dios durante esta semana.</p><div class="label">Escuchar devocional</div><audio controls preload="metadata" src="${w.devotional.audio_file}"></audio><div class="label">Reflexión</div><p class="dev">${w.devotional.reflection}</p><div class="label">Para esta semana</div><p class="dev">${w.devotional.application}</p><div class="label">Oración</div><p class="dev">${w.devotional.prayer}</p>`}
+else{const list=w.playlist.songs.map((s,i)=>`<div class="song"><span class="num">${i+1}</span><div><b>${s.title}</b><small>${s.artist}</small></div></div>`).join('');const btn=w.playlist.spotify_url?`<a class="spotify" href="${w.playlist.spotify_url}" target="_blank" rel="noopener noreferrer">● Escuchar en Spotify ↗</a>`:'';const embed=w.playlist.spotify_embed_url?`<div class="spotify-embed"><iframe src="${w.playlist.spotify_embed_url}?utm_source=generator" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen title="Playlist ${w.playlist.title}"></iframe></div>`:'';c.innerHTML=`<p class="intro">Una selección para adorar, agradecer y comenzar la semana con Dios.</p><div class="playhead"><span>🎵 PLAYLIST · ${w.playlist.songs.length} CANCIONES</span>${btn}</div>${embed}<div class="songs">${list}</div><div class="note">♥ Que esta música sea una herramienta para acercarte más a Dios.</div>`}
 }
 render();
 </script>
